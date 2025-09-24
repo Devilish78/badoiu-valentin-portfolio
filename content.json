@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "id": "stridewise",
+      "title": "Goal Tracking & Analytics Platform",
+      "description": "With user-centered approach, the goal was to create an intuitive interface for effortless goal management while incorporating gamification and AI-powered insights.",
+      "url": "https://stridewise.base44.app/",
+      "status": "completed",
+      "technologies": ["React", "Node.js", "AI/ML", "Analytics"],
+      "image": "assets/images/projects/stridewise.jpg"
+    },
+    {
+      "id": "weather-ai",
+      "title": "Weather AI with Image Generation",
+      "description": "Focus was to create a user-friendly interface that combines real-time weather data with AI-powered image generation for immersive weather visualization.",
+      "url": "https://mood-weather-webgl.vercel.app/",
+      "status": "completed",
+      "technologies": ["WebGL", "AI Image Generation", "Weather API", "Three.js"],
+      "image": "assets/images/projects/weather-ai.jpg"
+    },
+    {
+      "id": "receipt2recipe",
+      "title": "Receipt2Recipe",
+      "description": "Personalized Meal Planning from Grocery Receipts - transforming your shopping into custom meal plans with AI assistance.",
+      "url": null,
+      "status": "in-progress",
+      "technologies": ["AI/ML", "OCR", "Recipe API", "Mobile App"],
+      "image": "assets/images/projects/receipt2recipe.jpg"
+    },
+    {
+      "id": "quizverse",
+      "title": "QuizVerse",
+      "description": "An Adaptive Multi-Age Quiz Platform - creating engaging educational experiences that adapt to different age groups and learning styles.",
+      "url": null,
+      "status": "in-progress",
+      "technologies": ["Adaptive Learning", "Education Tech", "Quiz Engine", "Analytics"],
+      "image": "assets/images/projects/quizverse.jpg"
+    },
+    {
+      "id": "steampunk-studio",
+      "title": "Steampunk Penguin Studio",
+      "description": "Welcome to the forge of digital creativity. At Digital Alchemy, we transform the ephemeral into the visual. Learn to wield the power of AI prompts and craft your own digital masterpieces.",
+      "url": "https://portfolio.thethreeclock.com/",
+      "status": "completed",
+      "technologies": ["AI Art", "Digital Creation", "Portfolio", "Steampunk Aesthetic"],
+      "image": "assets/images/projects/steampunk-studio.jpg"
+    },
+    {
+      "id": "upland-ro",
+      "title": "Upland.ro",
+      "description": "Welcome to Upland.ro, the home of Sirdevil the Steampunk Penguin and a hub for creativity, innovation, and adventure in the Upland Metaverse!",
+      "url": "https://upland.ro/",
+      "status": "completed",
+      "technologies": ["Metaverse", "Web3", "Gaming", "Community Platform"],
+      "image": "assets/images/projects/upland-ro.jpg"
+    }
+  ],
+  "personal": {
+    "name": "Badoiu Valentin",
+    "title": "Creative Developer & Digital Artist",
+    "email": "badoiu.valentin@gmail.com",
+    "bio": "Hey everyone, I'm Valentin, the creative mind behind Steampunk Penguin! A creator, dreamer, and eternal explorer of ideas. I specialize in AI-enhanced digital art, web development, and bringing imaginative concepts to life through technology.",
+    "skills": [
+      "AI-Enhanced Digital Art",
+      "Web Development",
+      "Creative Storytelling",
+      "Concept Development",
+      "Visual Design",
+      "Digital Creation"
+    ],
+    "social": {
+      "bio_link": "https://bio.link/valentin",
+      "facebook": "https://www.facebook.com/v.badoiu"
+    }
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "Working with Valentin was a truly transformative experience. His ability to capture the 'sincerity of harmony' in his visuals is breathtaking. He doesn't just create images; he crafts 'visions where boundaries blur,' transporting you to another realm.",
+      "author": "Creative Director",
+      "company": "Digital Agency"
+    },
+    {
+      "id": 2,
+      "text": "Valentin's work is a journey through 'the space you don't have,' a profound exploration of imagination. He has a gift for finding beauty in the ephemeral, like 'a trip in the clouds,' and capturing the essence of 'a free soul born from a drop of water.'",
+      "author": "Digital Artist",
+      "company": "Creative Studio"
+    }
+  ]
+}

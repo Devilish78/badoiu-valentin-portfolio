@@ -1,0 +1,43 @@
+TODO: Replace placeholder images with actual assets
+
+Required Images:
+================
+
+1. Hero Background (assets/images/hero-bg.jpg)
+   - Recommended: 1920x1080px or larger
+   - Format: WebP with JPG fallback
+   - Should complement the color scheme
+
+2. Profile Photo (assets/images/profile.jpg)
+   - Recommended: 400x400px
+   - Format: WebP with JPG fallback
+   - Professional headshot or creative portrait
+
+3. Project Screenshots (assets/images/projects/)
+   - project-1-stridewise.jpg
+   - project-2-weather-ai.jpg
+   - project-3-receipt2recipe.jpg
+   - project-4-quizverse.jpg
+   - project-5-steampunk.jpg
+   - project-6-upland.jpg
+   - Recommended: 800x600px
+   - Format: WebP with JPG fallback
+
+4. Company/Client Logos (assets/images/logos/)
+   - Various client logos if available
+   - Format: SVG preferred, PNG fallback
+   - High contrast for light/dark themes
+
+5. Icons (assets/icons/)
+   - Social media icons
+   - Skill/technology icons
+   - Navigation icons
+   - Format: SVG preferred
+
+Optimization Notes:
+===================
+- Use WebP format for better compression
+- Provide JPG/PNG fallbacks for compatibility
+- Use srcset for responsive images
+- Implement lazy loading for non-critical images
+- Optimize images with tools like ImageOptim or TinyPNG

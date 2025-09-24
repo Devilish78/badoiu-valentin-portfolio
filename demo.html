@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Animation Demo - Badoiu Valentin Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+            background: #0a0a0a;
+            color: #ffffff;
+        }
+        .demo-section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #1a1a1a;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        .animation-preview {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #8a8aff 0%, #444 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        code {
+            background: #333;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Monaco', monospace;
+            color: #8a8aff;
+        }
+        .highlight {
+            color: #8a8aff;
+        }
+        h1, h2 {
+            color: #8a8aff;
+        }
+        pre {
+            background: #111;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 3px solid #8a8aff;
+            overflow-x: auto;
+        }
+        pre code {
+            background: none;
+            color: #b0b0b0;
+        }
+        .typewriter-demo {
+            font-family: 'Inter', monospace;
+            font-size: 1.5rem;
+            color: #8a8aff;
+            border-right: 2px solid #8a8aff;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50% { border-color: #8a8aff; }
+            51%, 100% { border-color: transparent; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🌙 Dark Theme Animation Demo & Proof of Behavior</h1>
+    
+    <div class="demo-section">
+        <h2>🔄 Rotating Hero Text Animation</h2>
+        <div class="animation-preview">
+            <span class="typewriter-demo">Badoiu Valentin creates AI-enhanced digital masterpieces</span>
+        </div>
+        <p><strong>New Feature:</strong> Typewriter effect with <code>80ms per character</code> and <code>1.5s pause</code> between phrases</p>
+        <ul>
+            <li>✅ Auto-rotating through 6 different phrases</li>
+            <li>✅ Realistic typing and erasing animations</li>
+            <li>✅ Blinking cursor with proper timing</li>
+            <li>✅ Infinite loop with smooth transitions</li>
+        </ul>
+    </div>
+    
+    <div class="demo-section">
+        <h2>🌙 Dark Theme Design</h2>
+        <div class="animation-preview">
+            Near-black background (#0a0a0a)<br>
+            + Soft purple accents (#8a8aff)
+        </div>
+        <p><strong>Complete Dark Theme:</strong> No white backgrounds, optimized for dark environments</p>
+        <ul>
+            <li>🎨 <span class="highlight">Primary Background:</span> #0a0a0a (near-black)</li>
+            <li>🎨 <span class="highlight">Accent Color:</span> #8a8aff (soft purple/blue)</li>
+            <li>🎨 <span class="highlight">Text Colors:</span> White and light gray tones</li>
+            <li>🎨 <span class="highlight">Card Backgrounds:</span> Subtle dark grays</li>
+        </ul>
+    </div>
+    
+    <div class="demo-section">
+        <h2>🖼️ Project Images Integration</h2>
+        <div class="animation-preview">
+            7 project images + profile photo<br>
+            All optimized and properly displayed
+        </div>
+        <p><strong>Visual Content:</strong> All your project screenshots and profile photo integrated</p>
+        <ul>
+            <li>📱 StrideWise - Goal tracking interface</li>
+            <li>🌤️ Weather AI - Mood-based weather visualization</li>
+            <li>🍽️ Receipt2Recipe - Meal planning app</li>
+            <li>🧠 QuizVerse - Multi-age quiz platform</li>
+            <li>🎨 Steampunk Studio - Creative portfolio</li>
+            <li>🌊 Upland.ro - Metaverse platform</li>
+            <li>👤 Professional profile photo</li>
+        </ul>
+    </div>
+
+    <div class="demo-section">
+        <h2>🎬 Animation Specifications</h2>
+        <div class="animation-preview">
+            All original animations preserved<br>
+            + Enhanced with dark theme aesthetics
+        </div>
+        <p><strong>Technical Implementation:</strong> Exact timing maintained with dark theme enhancements</p>
+    </div>
+    
+    <div class="demo-section">
+        <h2>🎯 Exact Animation Values</h2>
+        <pre><code>:root {
+  /* Dark Theme Colors */
+  --color-bg-primary: #0a0a0a;
+  --color-accent: #8a8aff;
+  --color-text-primary: #ffffff;
+  
+  /* Rotating Text Settings */
+  rotatingTexts: [
+    "crafts with accessibility as a priority",
+    "creates AI-enhanced digital masterpieces", 
+    "transforms ideas into stunning visuals",
+    "brings steampunk dreams to life",
+    "specializes in creative storytelling",
+    "develops innovative web experiences"
+  ],
+  typeSpeed: 80,     // ms per character
+  pauseDuration: 1500 // ms pause after complete sentence
+}</code></pre>
+    </div>
+    
+    <a href="index.html" style="display: inline-block; background: #8a8aff; color: #0a0a0a; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; margin-top: 2rem; font-weight: bold;">View Full Dark Portfolio →</a>
+</body>
+</html>

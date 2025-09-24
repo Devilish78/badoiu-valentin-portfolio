@@ -1,0 +1,31 @@
+/* Placeholder styles for development */
+.placeholder-image {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* TODO: Replace with actual images */
+.hero__background::after {
+  content: 'TODO: Add hero background image';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.875rem;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Development helpers */
+@media (max-width: 768px) {
+  .hero__background::after {
+    font-size: 0.75rem;
+  }
+}
