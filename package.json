@@ -1,0 +1,39 @@
+{
+  "name": "badoiu-valentin-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Badoiu Valentin - Creative Developer & Digital Artist",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "validate": "node validate.js",
+    "deploy:netlify": "netlify deploy --prod --dir .",
+    "deploy:vercel": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentin-badoiu/portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "digital-art",
+    "ai-enhanced",
+    "steampunk-penguin",
+    "responsive-design",
+    "animations"
+  ],
+  "author": "Badoiu Valentin <badoiu.valentin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "netlify-cli": "^17.0.0",
+    "vercel": "^32.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ]
+}
