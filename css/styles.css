@@ -454,6 +454,13 @@ a {
   font-weight: var(--font-weight-medium);
 }
 
+.project-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 /* Testimonials Section */
 .testimonials {
   background-color: var(--color-bg-tertiary);
